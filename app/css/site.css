@@ -1,0 +1,156 @@
+body {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    background-color: #d3d2ff;
+    color: rgb(10, 1, 49);
+}
+div {
+    position: fixed;
+}
+
+#heading{
+    top: 20px;
+    left: 20px;
+    right: 20px; 
+    border: 2px solid rgb(16, 1, 53);
+    border-radius: 1px;
+    outline: none;
+    background-color:#008CBA;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+#window {
+    top: 60px;
+    left: 20px;
+    right: 20px;
+    bottom: 60px;
+    border: 2px solid rgb(16, 1, 53);
+}
+
+#window ul {
+    list-style: none;
+    position: absolute;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 5px;
+}
+
+#window ul li {
+    min-height: 19px;
+    width: 100%;
+    margin: 0;
+    padding: 1px;
+}
+
+#window ul span {
+    height: 100%;
+    margin: 0;
+    padding: 1px;
+    vertical-align: middle;
+}
+
+#window ul span.name {
+    color: rgb(1, 54, 58);
+}
+
+#input {
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    border: 2px solid rgb(12, 43, 126);
+    height: 30px;
+}
+
+#input span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#input .wrapper {
+    position: absolute;
+    right: 52px;
+    left: 30px;
+    bottom: 0;
+    top: 0;
+}
+
+#input input[type=text] {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    margin: 0;
+    background-color: inherit;
+    color: inherit;
+}
+
+#send{
+    position: absolute;
+    border: 1px solid rgb(0, 5, 48);
+    border-radius: 1px;
+    outline: none;
+    background-color:#008CBA;
+    color: white;
+    padding: 5px 5px;
+    right: 0px;
+    width: 50px;
+    bottom: 0px;
+    top: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+#filesend {
+    position: absolute;
+    border: 1px solid rgb(0, 5, 48);
+    border-radius: 1px;
+    outline: none;
+    background-color:#008CBA;
+    color: white;
+    padding: 5px 5px;
+    right: 50px;
+    width: 45px;
+    bottom: 0px;
+    top: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+
+#input button:active {
+    color: rgb(0, 5, 48);
+    background-color: lightgrey;
+}
+#filesend:hover {
+    background-color: rgb(16, 1, 53);
+     color: white;
+   }
+#input button:hover {
+ background-color: rgb(16, 1, 53);
+  color: white;
+}

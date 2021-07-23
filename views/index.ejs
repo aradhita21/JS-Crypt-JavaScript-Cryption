@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>JS-Crypt</title>
+
+        <!-- Meta -->
+        <meta charset="utf-8" />
+        <meta name="description" content="An SSL and AES-256 encrypted chat and file sharing." />
+        <meta name="author" content="Supernomad - Christian Saide" />
+        <meta name="application-name" content="CryptoNode" />
+        <meta name="keywords" content="Encrypted,Chat,Node.js,AES,AES-256,Messenger,SSL,File sharing, File encryption, Encryption" />
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="css/site.css" />
+    </head>
+    <body>
+        <div class = "classy">
+        <!-- Main Site -->
+        <div id="heading">
+          JS-Crypt : A Secure Chat Platform
+        </div>
+        <div id="window">
+            <ul id="stdout">
+            </ul>
+        </div>
+        <div id="input">
+            <span>></span><div class="wrapper"><input id="stdin" type="text" tabindex="0" autofocus/></div>
+        <button id="send">Send</button>
+        
+        <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+        <form action="/upload" method="POST" enctype="multipart/form-data" target="dummyframe">
+            <input name="myImage" type="file" id="filebtn"  accept="image/*" style="display: none;">
+            <label for="filebtn" id="filesend"> File</label>
+        </form>
+    </div>
+        <!-- Scripts -->
+        <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script type="text/javascript" language="javascript" src="scripts/aes.js"></script>
+        <script type="text/javascript" language="javascript" src="scripts/format-hex.js"></script>
+        <script type="text/javascript" language="javascript" src="scripts/pbkdf2.js"></script>
+        <script type="text/javascript" language="javascript" src="scripts/site.js"></script>
+        <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>  
+      
+    </body>
+</html>
